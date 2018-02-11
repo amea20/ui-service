@@ -1,0 +1,251 @@
+body {
+	margin: 0;
+	background-image: url("../images/office.jpeg");
+}
+textarea {
+	height:106px !important
+}
+button a {
+	color:black
+}
+#pagecontainer a {
+		color:#333;
+		text-decoration:none
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+#pagecontainer {
+	width:1044px;
+	margin:0 auto
+}
+#header {
+	margin:3px
+}
+.navbar-nav>li {
+	border-right: 1px solid #e7e7e7
+}
+.navbar-nav>li:hover {
+	color:#ffffff !important
+}
+#container {
+	border-radius:4px;
+	background-color: #f8f8f8;
+	padding:20px
+}
+#errors {
+	border-radius: 6px;
+	margin: 10px 0px 10px 25px;
+}
+.has-error {
+	color: red;
+}
+.resetpassword ,.adduser{
+	padding: 0 0 20px 20px
+}
+.forgotpassword {
+	padding: 0 0 10px 25px
+}
+#container p {
+	font-weight:bold;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#greetings {
+	text-align:right
+}
+#confirmationtext h1 {
+	text-transform:uppercase;
+	padding: 20px 20px 0 20px;
+	margin: auto
+}
+#container h2 {
+	text-transform:uppercase;
+	padding: 20px 20px 10px 20px;
+	margin: auto
+}
+#container .register {
+	margin: 0;
+	padding: 10px 20px 20px 20px;
+	font-weight:bold
+}
+#uploadfile {
+	padding-top:5px
+}
+#addcommentbutton {
+	position:relative;
+	left:179px
+}
+.commentsfield {
+	display:none;
+	padding:10px;
+	width:46%;
+	position:relative;
+	left:190px
+}
+.commentsblock{
+	position:relative;
+	right:10px;
+	bottom:5px;
+	border: 1px solid #ccc;
+    padding: 10px 10px 15px 10px
+}
+.addedby {
+	font-size:9px;
+	position:absolute;
+	right:10px;
+	bottom:5px
+}
+.commentstext {
+	font-weight:normal !important;
+	padding: 0 0 0 35px;
+	font-size:10pt
+}
+#addressblock {
+	display:none
+}
+#projecttitle {
+	cursor:pointer
+}
+#container #dashboard {
+	border: 3px solid rgba(0, 0, 0, 0.27);
+    border-style: groove;
+    border-radius: 6px;
+    margin: 0 0 0 20px;
+	padding: 0 0 20px 0;
+    width: 750px
+}
+.logintext {
+	padding: 0 0 0 25px
+}
+#changelog {
+	border: 2px solid #e7e7e7
+}
+#changelog h1,h2,h3,h4 {
+	padding:20px !important
+}
+#changelog p, #dashboard p {
+	padding: 0 0 0 40px !important;
+}
+.glyphicon-chevron-right {
+	float:left;
+	padding: 0 0 0 20px;
+	top:2px !important
+}
+.homebutton {
+	height:35px;
+	padding-top:10px;
+	text-align:right
+}
+#container #dashboard p,h1,h2,h4 {
+	margin:0;
+	padding:0 0 10px 20px
+}
+#exportButton {
+	float: right;
+    position: relative;
+    right: 25px;
+}
+#confirmationtext p {
+	padding:20px;
+	font-weight:normal
+}
+#container #login {
+	position:relative;
+	left:20px;
+	bottom:5px
+}
+.actionButtons {
+	padding-left:25px
+}
+.form-horizontal .form-group {
+	margin-left:10px !important;
+	margin-right:10px !important
+}
+.form-horizontal .control-label {
+	white-space: nowrap
+}
+.form-group .col-sm-offset-1 {
+	margin-left:6%
+}
+#postcodelookup {
+	display:none
+}
+#sortResults {
+	text-align:right
+}
+#sortResults select {
+	border-radius:4px;
+	text-align:right;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+#forgottenpassword {
+	text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px
+}
+#forgottenpasswordinput {
+	position:relative;
+	left: 30px
+}
+#forgottenpassword:hover {
+	border-bottom: 2px solid red
+}
+#sendpassword {
+	margin-top:5px;
+	position:relative;
+	bottom:10px
+}
+#userRole {
+	width:auto
+}
+#container #registrationbutton, #addproject, #adduser,#addtask, #editproject, #edituser, #edittask {
+	float: right;
+    margin: 0 10px 10px 0
+}
+#registerbutton a{
+	color:black;
+	text-decoration:none
+}
+#tablesort {
+	width:95%;
+	position:relative;
+	top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#action, #lock, #disable {
+	width: 15px;
+    height: 15px;
+	text-align:center
+}
+.btn-group {
+	padding: 10px 0 0 0;
+	bottom:10px;
+    left: 23px
+}
+.btn-group button a{
+	color:white
+}
+.btn-group .btn-default a{
+	color:black;
+}
+#footer {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	margin-top:20px;
+	border-radius:4px
+}
+#footer #bottomLinks {
+	padding:15px;
+}
+#footer #bottomLinks a {
+	color: #6D6F72;
+	text-decoration:none
+}
+#footer .footerCopyright {
+	float:right
+}
