@@ -8,6 +8,7 @@ import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -23,7 +24,7 @@ public class RegisterController {
 
 	private RestTemplate restTemplate;
 	
-		private static Logger logger = LoggerFactory.getLogger(RegisterController.class);
+	private static Logger logger = LoggerFactory.getLogger(RegisterController.class);
 		
 //		@InitBinder
 //		   protected void initBinder(WebDataBinder binder) {
@@ -35,8 +36,7 @@ public class RegisterController {
 		@RequestMapping(method = RequestMethod.GET, value ="/register")
 		public ModelAndView register(User user) {
 			ModelAndView mv = new ModelAndView("register");
-			Map<String,String> countriesMap = new HashMap<>();
-			restTemplate.getForObject("http://user-service/countries", Map.class, countriesMap);
+			Map countriesMap = restTemplate.getForObject("http://localhost:8080/countries", Map.class);
 			mv.addObject("user",user);
 			mv.addObject("countries", countriesMap);
 			return mv;
